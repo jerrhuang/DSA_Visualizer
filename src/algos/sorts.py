@@ -1,7 +1,7 @@
 """
 Sorting algorithm implementations that emit execution trace events.
 
-This module contains pure sorting algorithms that do NOT perform any
+This module contains sorting algorithms that do not perform any
 visualization or UI logic. Each algorithm operates on a copy of the
 input data and emits a sequence of Events describing what happened
 during execution.
@@ -13,7 +13,7 @@ Design principles:
 - The returned Event list can be replayed step-by-step by a Player.
 
 All sorting algorithms in this module follow the same interface:
-    sort(values: list[int]) -> list[Event]
+    sort(values: List[int]) -> List[Event]
 """
 
 from typing import List
